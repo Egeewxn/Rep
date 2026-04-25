@@ -12,16 +12,16 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "29904507"))
+API_ID = int(getenv("API_ID", "31014520"))
 
-API_HASH = getenv("API_HASH", "eaa33aa1d9c47b197c3c81a8da988378")
+API_HASH = getenv("API_HASH", "a417b28a4d84361257f9672803c94106")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7342624106:AAFB2ZbdQjAgO5o8OKuI71W8NQ4u4PZSspA")
+BOT_TOKEN = getenv("BOT_TOKEN", "8749491505:AAFsPvNEIWVPwOyYnT5e1f5m_nagejHLqj8")
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://thronebaba_db_user:thronebaba_db_user@cluster0.t4tnfgw.mongodb.net/?appName=Cluster0")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -41,17 +41,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1003736169448"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","geceexpresbot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","JazeMusicBot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "5901320319").split())
+    map(int, getenv("OWNER_ID", "8234857464").split())
 
 )  # Input type must be interger
 
