@@ -34,7 +34,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("ArchMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+            "Asistan yok"
         )
         return
     if (
@@ -42,7 +42,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("ArchMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+            "Spotify Kullanılamıyor"
         )
     try:
         users = await get_gbanned()
